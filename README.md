@@ -33,6 +33,5 @@
 <br>
 
 ## 2. 이미지 검색 및 복용 관리 앱 구현 
-* Flutter를 이용해 앱 구현 
 <img src="https://github.com/daunJJ/Pill_Image_Classification/assets/109944763/061ed4bc-d768-4b84-b7ac-2a356e037321" width="160" height= "320"/>
 <img src="https://github.com/daunJJ/Pill_Image_Classification/assets/109944763/24a1b8d5-e63a-4eba-9e4c-fdd59dd59fff" width="160" height= "320"/>
