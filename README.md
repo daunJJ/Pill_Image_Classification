@@ -8,30 +8,17 @@
 * 참여자
   * [정다운](https://github.com/daunjj)
   * [정재원](https://github.com/havehill)
-  * 김서연 
+  * 김서연
 
-<br>
+## Content
+**알약 이미지 분류 모델 구현** 
+1. Resnet을 이용한 알약 분류
+   - [알약 품명 분류](https://github.com/daunJJ/Pill_Image_Classification/blob/main/model1_Resnet.ipynb)
+2. CNN을 이용한 알약 Type(모양/색상/제형/분할선) 분류
+   - [알약 모양 분류](https://github.com/daunJJ/Pill_Image_Classification/blob/main/model2_CNN_shape.ipynb)
+   - [알약 제형 분류](https://github.com/daunJJ/Pill_Image_Classification/blob/main/model2_CNN_type.ipynb)
 
-## 1. 이미지 검색 모델 구현
-### Resnet
-* 목표: 총 171종의 알약 class를 각각 분류
-* 학습:
-  * 5종(각 종당 약 200여 개)의 알약만 미리 학습
-  * fc layer만 가중치를 변경하여 학습
-* 결과: 저조한 Accuracy
-* 문제점: 171개의 class를 구분하기 위해서는 다량의 데이터를 처리할 수 있는 환경 필요
+**이미지 검색 및 복용 관리 앱 구현**
 
-### CNN
-<img src="https://github.com/daunJJ/Pill_Image_Classification/assets/109944763/de6e281e-d5a4-498b-984e-268eeb2986e6" width="500" height= "250"/>
-
-* 목표: 알약의 모양/색상/제형/분할선을 분류 후 해당하는 알약의 리스트 제공
-* 학습:
-  * 네이버 '의약품사전'을 기준으로 4가지 TYPE 분류
-  * 4가지 TYPE별 CNN 모델 구현
-* 결과: 100%에 가까운 Accuracy
-
-<br>
-
-## 2. 이미지 검색 및 복용 관리 앱 구현 
 <img src="https://github.com/daunJJ/Pill_Image_Classification/assets/109944763/061ed4bc-d768-4b84-b7ac-2a356e037321" width="160" height= "320"/>
 <img src="https://github.com/daunJJ/Pill_Image_Classification/assets/109944763/24a1b8d5-e63a-4eba-9e4c-fdd59dd59fff" width="160" height= "320"/>
