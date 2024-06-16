@@ -2,7 +2,8 @@
 <h4 align="center"> IT공학 전공 졸업프로젝트 </h4>
 
 ## Introduction
-* 주제: 알약 이미지 검색 및 복용 관리 앱 
+* 주제: 알약 이미지 검색 및 복용 관리 앱
+* 목적: 사진 촬영으로 알약을 검색하고, 해당 제품의 정보를 알려주는 앱을 만들고자 함
 * 분석 기간: 2023.09 ~ 2023.12
 * 데이터: [AI-Hub 경구약제 이미지 데이터](https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&dataSetSn=576)
 * 참여자
